@@ -29,7 +29,7 @@ body {
 
 }
 
-.centered-main-page-element {
+.main-wrapper {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -78,7 +78,7 @@ button:hover {
 /* Heading */
 
 h3,
-label[for='new-task'] {
+label[for='new-item__input'] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -108,12 +108,12 @@ input[type="text"]:focus {
 
 /* New Task */
 
-label[for='new-task'] {
+label[for='new-item__input'] {
   display: block;
   margin: 0 0 20px;
 }
 
-input#new-task {
+input#new-item__input {
   width: 318px;
 }
 
