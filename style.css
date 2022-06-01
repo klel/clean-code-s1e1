@@ -78,7 +78,7 @@ button:hover {
 /* Heading */
 
 h3,
-label[for='new-item__input'] {
+label[for="new-item__input"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -108,7 +108,7 @@ input[type="text"]:focus {
 
 /* New Task */
 
-label[for='new-item__input'] {
+label[for="new-item__input"] {
   display: block;
   margin: 0 0 20px;
 }
@@ -169,11 +169,11 @@ ul#completed-tasks label {
 
 /* Edit Task */
 
-ul li input[type=text] {
+ul li input[type="text"] {
   display: none;
 }
 
-ul li.edit-mode input[type=text] {
+ul li.edit-mode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
