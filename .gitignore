@@ -1,0 +1,8 @@
+.editorconfig
+node_modules/*
+.vscode/formatter copy.json
+package-lock.json
+package.json
+.vscode/formatter.json
+.prettierrc
+.eslintrc.json
